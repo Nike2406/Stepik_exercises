@@ -1,0 +1,31 @@
+.main-header {
+  width: 100%;
+  background: #007765;
+  position: fixed;
+}
+.header-container {
+  width: 1107px;
+  margin: 20px auto;
+  border: 2px solid blue;
+}
+
+.main-logo {
+  float: left;
+  width: 184px;
+  height: 45px;
+}
+.main-navigation {
+  float: right;
+}
+
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  display: table;
+  content: ' ';
+  clear: both;
+}
