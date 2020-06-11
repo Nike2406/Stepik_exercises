@@ -2,11 +2,13 @@
   width: 100%;
   background: #007765;
   position: fixed;
+  top: 0;
+  align-content: center;
 }
+
 .header-container {
-  width: 1107px;
+  max-width: 1107px;
   margin: 20px auto;
-  border: 2px solid blue;
 }
 
 .main-logo {
@@ -14,18 +16,47 @@
   width: 184px;
   height: 45px;
 }
+
 .main-navigation {
+  height: 45px;
   float: right;
+  display: table;
 }
 
 li {
-  display: inline-block;
+  list-style: none;
+  display: table-cell;
+  vertical-align: middle;
 }
+
+.pole {
+  padding: 0 8px;
+}
+
 a {
   text-decoration: none;
+  height: 20px;
 }
+
 .clear {
   display: table;
   content: ' ';
   clear: both;
+}
+
+.main-container {
+  padding-top: 65px;
+  max-width: 1107px;
+  margin: 20px auto;
+}
+
+.preview {
+  display: inline-block;
+  height: 403px;
+  line-height: 403px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background: url("/Homework_6.10/img/image.jpg");
+  background-repeat: no-repeat;
 }
