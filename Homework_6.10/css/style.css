@@ -207,3 +207,22 @@ footer {
 
   color: #FFFFFF;
 }
+
+/*Исползуется метод положительного паддинга и отрицательного марджина дабы убрать разницу в шапке*/
+
+#problem {
+	padding-top: 60px;
+	margin-top: -60px;
+	background-clip: content-box;
+}
+#PiedPiperCoin {
+	padding-top: 60px;
+	margin-top: -60px;
+	background-clip: content-box;
+}
+
+#theTeam {
+	padding-top: 60px;
+	margin-top: -60px;
+	background-clip: content-box;
+}
