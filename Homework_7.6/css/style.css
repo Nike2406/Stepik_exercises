@@ -1,0 +1,44 @@
+.block {
+  margin: 8px 0;
+  padding: 32px;
+  text-align: center;
+  content: " ";
+}
+
+.block-1 {
+  background: #CC4A14;
+}
+
+.block-2 {
+  background: #99583D;
+}
+.block-3 {
+  background: #40FF40;
+}
+.block-4 {
+  background: #FF0000;
+}
+.block-5 {
+  background: #54CC14;
+}
+.block-6 {
+  background: #14AFCC;
+}
+.block-7 {
+  background: #3D8A99;
+}
+.block-8 {
+  background: #00FF9A;
+}
+.block-9 {
+  background: #FF4440;
+}
+.block-10 {
+  background: #CC216B;
+}
+.block-11 {
+  background: #7040FF;
+}
+.block-12 {
+  background: #2124CC;
+}
