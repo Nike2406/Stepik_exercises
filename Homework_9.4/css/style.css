@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #1D1D1D;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 786px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-header {
+  padding: 30px 0;
+  margin: 0;
+}
+
+.main-logo {
+  width: 120px;
+  height: 12px;
+}
+
+.main-navigation li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1D1D1D;
+}
+
+.sign-in-button {
+  border: 1px solid #E0E0E0;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+.basket {
+  margin: 0 10px 0 27px;
+}
+
+.advetisement-container {
+  background-image: url('/Homework_9.4/img/bg-main.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 364px;
+}
+
+.advetisement-wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+  padding: 28px 29px 38px 38px;
+}
+
+.advetisement-wrapper h2 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.advetisement-wrapper>div {
+  margin: 0;
+  padding: 0;
+  margin-top: 54px;
+}
+
+.advatisement-time {
+  background: #262626;
+  border-radius: 16px;
+  font-size: 13px;
+line-height: 15px;
+  color: #FFFFFF;
+  padding: 8px 15px;
+}

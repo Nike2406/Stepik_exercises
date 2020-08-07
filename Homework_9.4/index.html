@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -11,23 +12,29 @@
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="header-container">
+  <div class="container">
+    <header class="main-header row between-xs middle-xs">
       <img class="main-logo" src="img/logo.png" alt="main-logo">
-      <nav class="main-navigation">
+      <nav class="main-navigation row">
         <li><a href="#" class="sign-in-button">Войти</a></li>
         <li><img src="img/basket.svg" alt="basket" class="basket"></li>
       </nav>
-    </div>
-  </header>
+    </header>
+  </div>
 
-  <div class="container advetisement-container">
-    <section class="advetisement">
-      <div class="advetisement-wrapper">
+<div class="advetisement-container row middle-xs">
+  <div class="container">
+    <section class="advetisement row">
+      <div class="advetisement-wrapper col-lg-5 col-md-7 center-xs">
         <h2>Трактир &laquo;Пушкин&raquo;</h2>
+        <div class="row between-xs middle-xs">
+        <span class="advetisement-description">&#8381;&middot;Европейская</span>  
+        <a href="#" class="advatisement-time">40 - 50 мин</a>
+      </div>
       </div>
     </section>
   </div>
+</div>
 
   <div class="container">
     <section class="food-navigation">
